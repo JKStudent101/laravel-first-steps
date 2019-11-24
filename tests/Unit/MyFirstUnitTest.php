@@ -9,6 +9,11 @@ use App\Calculator;
 
 class MyFirstUnitTest extends TestCase
 {
+    public function testSum50()
+    {
+        $calculator = new Calculator();
+        $this->assertTrue($calculator->sum(50, 50) == 100);
+    }
     public function testSum()
     {
         $calculator = new Calculator();
