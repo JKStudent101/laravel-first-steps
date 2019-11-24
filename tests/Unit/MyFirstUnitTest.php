@@ -12,7 +12,7 @@ class MyFirstUnitTest extends TestCase
     public function testSum50()
     {
         $calculator = new Calculator();
-        $this->assertTrue($calculator->sum(50, 50) == 100);
+        $this->assertTrue($calculator->sum(50, 50) == 50);
     }
     public function testSum()
     {
